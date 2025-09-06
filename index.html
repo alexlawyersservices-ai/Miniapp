@@ -1,99 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-  <meta charset="UTF-8">
-  <title>Alexlawyers ⚖️ محامين الإسكندرية</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Monetag SDK -->
-  <script src='//libtl.com/sdk.js' data-zone='9835159' data-sdk='show_9835159'></script>
-
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background: #ffffff;
-      padding: 20px;
-    }
-    h1 { color: #333; }
-
-    .btn-link {
-      display: block;
-      width: 100%;
-      margin: 10px 0;
-      padding: 15px;
-      background: #444; /* لون الزر */
-      color: #fff;       /* النص أبيض */
-      text-decoration: none;
-      border-radius: 10px;
-      font-size: 18px;
-      transition: all 0.2s ease;
-      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-    }
-    .btn-link:hover {
-      background: #222;
-      color: #fff; /* يظل أبيض عند المرور */
-    }
-    .btn-link:active {
-      transform: scale(0.97);
-      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-      color: #fff; /* يظل أبيض عند الضغط */
-    }
-
-    footer {
-      margin-top: 30px;
-      font-size: 14px;
-      color: #666;
-    }
-  </style>
-</head>
-<body>
-
-  <h1>Alexlawyers ⚖️ محامين الإسكندرية</h1>
-
-  <!-- روابط كأزرار -->
-  <a class="btn-link" href="https://alexlawyersservices.blogspot.com/">🏡 Home page</a>
-  <a class="btn-link" href="https://moj.gov.eg/ar/Pages/Services/CaseCurrentStatus.aspx">👨‍⚖️ جلسات الاستئناف العالي والمدني</a>
-  <a class="btn-link" href="https://alexlawyersservices.blogspot.com/2023/01/qr_4.html">🔻 Qr محاكم شرق وغرب الإسكندرية</a>
-  <a class="btn-link" href="https://bit.ly/40pQj3I">⭕ انابة تسجيل</a>
-  <a class="btn-link" href="https://alexlawyersservices.blogspot.com/2024/10/CommunicationWhatsAppgroups.html">💬 تواصل مجموعات واتساب</a>
-  <a class="btn-link" href="https://bit.ly/ppo-car-services">🚐 اماكن سيارات النيابة والمرور</a>
-  <a class="btn-link" href="https://alexlawyersservices.blogspot.com/2023/01/%20courts-egypt-qr.html">🌍 Qr محافظات أخرى</a>
-  <a class="btn-link" href="https://alexlawyersservices.blogspot.com/2023/01/qr.html">🇪🇬 Qr محاكم مجلس الدولة</a>
-  <a class="btn-link" href="https://alexlawyersservices.blogspot.com/2024/09/WorkdistributionAlexandriacourts.html">🏛️ توزيعة العمل القضائي 2025</a>
-  <a class="btn-link" href="https://docs.google.com/spreadsheets/d/1LtZgHF3tytflTnJgOS34CTvvg14qeHX6OfbTHBm32EU/edit?usp=drivesdk">☎️ دليل تليفونات محامين مصر</a>
-  <a class="btn-link" href="https://bit.ly/41DaKs6">🅰️ تطبيق محامين الإسكندرية</a>
-  <a class="btn-link" href="https://drive.google.com/file/d/1493cT-kNNneRDUVrdKbxfXCK2PNDsPtW/view">💊 دليل علاج 2025</a>
-  <a class="btn-link" href="https://alexlawyersservices.blogspot.com/2023/04/Attorney-office-2023.html?m=1">💼 طلبات العمل</a>
-  <a class="btn-link" href="https://alexlawyersservices.blogspot.com/2023/12/blog-post_24.html">☎️ أرقام هامة</a>
-  <a class="btn-link" href="https://digital.gov.eg/">🌐 مصر الرقمية</a>
-  <a class="btn-link" href="https://ppo.gov.eg/ppo/r/ppoportal/ppoportal/home">⚖️ موقع النيابة العامة</a>
-  <a class="btn-link" href="https://eservice.incometax.gov.eg/etax">💰 مصلحة الضرائب</a>
-  <a class="btn-link" href="https://bit.ly/3Do9Sg3">👨‍🔧 دليل أصحاب الأعمال</a>
-  <a class="btn-link" href="https://egyls.com/elections">📥 الاستعلام عن اللجنة الانتخابية</a>
-
-  <!-- ربط الإعلان بالضغط على الأزرار -->
-  <script>
-    document.querySelectorAll('.btn-link').forEach(btn => {
-      btn.addEventListener('click', function(event) {
-        event.preventDefault(); // منع فتح الرابط فورًا
-        const url = this.href;
-
-        // عرض إعلان Monetag
-        show_9835159().then(() => {
-          console.log('Ad Viewed');
-          window.location.href = url; // فتح الرابط بعد الإعلان
-        }).catch(() => {
-          // لو الإعلان فشل يفتح الرابط عادي
-          window.location.href = url;
-        });
-      });
-    });
-  </script>
-
-  <footer>
-    <p>Made with ❤️ by Alexlawyers</p>
-  </footer>
-
-</body>
-</html>
